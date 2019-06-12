@@ -34,7 +34,7 @@ It also needs both :before and :after pseudoclasses to work, that's the only way
 {% assign overlay = "rgba(255,255,255,1)" %}
 {% endif %}
 
-{% assign opacity = "0.0" %}
+{% assign opacity = "1.0" %}
 
 
 <style>
@@ -44,7 +44,7 @@ It also needs both :before and :after pseudoclasses to work, that's the only way
   .{{ post.url | remove: '/posts/' }}::before {
     background-image: url('{{ hero }}');
     background-size: cover;
-    -webkit-filter: grayscale(0) brightness(0) contrast(0);
+    -webkit-filter: grayscale(None) brightness(0) contrast(0);
 
     content:'';
     position:absolute;
