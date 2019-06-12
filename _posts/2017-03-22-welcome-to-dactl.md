@@ -4,7 +4,7 @@ title:  "Welcome to dactl!"
 tags:
   - dactl
   - jekyll
-hero: /assets/img/638d24bbly1g1hrqno3h4j21ni13wx6r.jpg
+hero: https://i.loli.net/2019/06/12/5d00b3aad229780731.jpg
 published: true
 
 ---
